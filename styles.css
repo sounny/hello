@@ -18,3 +18,16 @@ h1 {
     font-size: 64px; /* large font size */
     margin: 0; /* remove default margin */
 }
+
+p {
+    margin-top: 20px; /* add some space between the heading and the link */
+}
+
+a {
+    color: #66d9ef; /* a nice blue-green color for the link */
+    text-decoration: none; /* remove the default underline */
+}
+
+a:hover {
+    color: #9fdefe; /* a lighter blue-green color on hover */
+}
