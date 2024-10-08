@@ -24,10 +24,14 @@ p {
 }
 
 a {
-    color: #ffffff; /* a nice white color for the link */
+    color: #ffffff; /* change link color to white */
     text-decoration: none; /* remove the default underline */
 }
 
+a:visited {
+  color: #ffffff; /* make visited links white too */
+}
+
 a:hover {
-    color: #9fdefe; /* a lighter blue-green color on hover */
+    text-decoration: underline; /* add underline on hover for better accessibility */
 }
