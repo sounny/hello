@@ -1,0 +1,20 @@
+body {
+    background-color: #f7f7f7; /* light gray background */
+    font-family: Arial, sans-serif; /* sans-serif font */
+    margin: 0; /* remove default margin */
+    padding: 0; /* remove default padding */
+    height: 100vh; /* set height to full viewport height */
+    display: flex; /* use flexbox to center content */
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+}
+
+.container {
+    text-align: center; /* center text horizontally */
+}
+
+h1 {
+    color: #ffffff; /* white text color */
+    font-size: 64px; /* large font size */
+    margin: 0; /* remove default margin */
+}
