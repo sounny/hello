@@ -23,15 +23,17 @@ p {
     margin-top: 20px; /* add some space between the heading and the link */
 }
 
-a {
-    color: #ffffff; /* change link color to white */
-    text-decoration: none; /* remove the default underline */
+.button {
+    background-color: #444; /* dark gray button background */
+    color: #ffffff; /* white text color */
+    border: none; /* remove default border */
+    padding: 10px 20px; /* add some padding to make it look like a button */
+    font-size: 16px; /* adjust font size */
+    cursor: pointer; /* change cursor to pointer */
+    text-decoration: none; /* remove underline */
+    border-radius: 5px; /* add some rounded corners */
 }
 
-a:visited {
-  color: #ffffff; /* make visited links white too */
-}
-
-a:hover {
-    text-decoration: underline; /* add underline on hover for better accessibility */
+.button:hover {
+    background-color: #555; /* darker gray on hover */
 }
